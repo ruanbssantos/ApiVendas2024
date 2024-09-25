@@ -1,8 +1,8 @@
+import { env } from "../env";
 import { app } from "./app";
 
 
-const porta = 3333;
 
-app.listen(porta,()=>{
-	console.log(`Servidor online na porta ${porta}!`);
+app.listen(env?.PORT,()=>{
+	console.log(`Servidor online na porta ${env?.PORT}!`);
 });
