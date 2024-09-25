@@ -21,11 +21,11 @@ app.use(errorHandler);
 // 		});
 // 	}
 
-// 	console.error(err);
+	console.error("Erroo " + err);
 
-// 	return res.status(500).json({
-// 		message: "Internal server erro.",
-// 	});
-// });
+	return res.status(500).json({
+		message: "Internal server erro.",
+	});
+});
 
 export { app };
