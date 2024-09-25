@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(routes);
-app.use(errorHandler);
+//app.use(errorHandler);
 
 // app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 // 	if (err instanceof Error){
@@ -21,11 +21,11 @@ app.use(errorHandler);
 // 		});
 // 	}
 
-	console.error("Erroo " + err);
+// 	console.error(err);
 
-	return res.status(500).json({
-		message: "Internal server erro.",
-	});
-});
+// 	return res.status(500).json({
+// 		message: "Internal server erro.",
+// 	});
+// });
 
 export { app };
