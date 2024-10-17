@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx dotenv-cli -e .env -- nodemon -r tsconfig-paths/register --watch src --ext ts --exec ts-node src/common/infrastructure/http/server.ts",
-		"typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+    "dev": "npx dotenv-cli -e .env -- nodemon -r tsconfig-paths/register --watch src --ext ts --exec ts-node src/server.ts",
+		"typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+		"teste": "npx dotenv-cli -e .env.test -- jest --runInBand"
 
   },
   "keywords": [],

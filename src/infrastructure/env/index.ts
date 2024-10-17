@@ -1,6 +1,6 @@
+import { AppError } from '@/domain/errors/appError';
 import 'dotenv/config';
 import { z } from 'zod';
-import { AppError } from '../../domain/errors/appError';
 
 
 const envSchema = z.object({

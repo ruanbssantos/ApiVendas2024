@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { AppError } from "../../../domain/errors/appError";
+import { AppError } from "@/domain/errors/appError";
 
 export function errorHandler(err: AppError, req: Request, res: Response, next: NextFunction): Response {
 
