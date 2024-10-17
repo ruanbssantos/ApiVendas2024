@@ -1,6 +1,4 @@
-import { error } from 'console';
 import { Router, Request, Response } from 'express';
-import { AppError } from '@/domain/errors/appError';
 
 
 const routes = Router();

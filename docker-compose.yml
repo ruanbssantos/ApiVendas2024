@@ -5,7 +5,7 @@ services:
     environment:
       - POSTGRESQL_USERNAME=postgres
       - POSTGRESQL_PASSWORD=postgres
-      - POSTGRESQL_DATABASE=ApiVendas2024
+      - POSTGRESQL_DATABASE=SujeitoPizzaria
     ports:
       - "5432:5432"
     volumes:

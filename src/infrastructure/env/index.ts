@@ -26,4 +26,5 @@ if (!_env) {
 }
 
 
+console.log('Variáveis de ambiente validadas com sucesso:',_env.data)
 export const env = _env.data;

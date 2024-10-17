@@ -9,5 +9,5 @@ dataSource.initialize().then(() => {
 	});
 
 }).catch(error => {
-    console.error('*****Erro ao inicializar banco de dados:\n\n', error)
+    console.error('Erro ao inicializar banco de dados:\n\n', error)
 });
